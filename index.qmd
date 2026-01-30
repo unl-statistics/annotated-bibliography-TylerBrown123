@@ -9,18 +9,33 @@ citations-hover: false
 
 # Annual Review Article
 
-@annualrevarticle
-
+@embrechtsRecentChallengesActuarial2022
 
 # References
 
-@ref1
+@breimanStatisticalModelingTwo2001
 
-- Summary
+- The main argument proposed in this paper is that an overreliance on traditional data models has limited statistical practice, and that greater use of algorithmic and machine learning methods is needed to better achieve the goals of data analysis. The paper is interesting in how it challenges a core assumption of statistics and data science by arguing that traditional data models, which are often treated as a fundamental starting point, can be poor choices for data analysis. The paper generally follows a structure where it lays out a scenario/problem with some data that needs to be solved using some data analysis technique. In each scenario, it compares and contrasts the effectiveness of traditional data models with the use of some sort of algorithmic or machine learning method. In almost every case, what Breiman finds is that the algorithmic/machine learning model has much better predictive accuracy when compared with traditional parametric model approaches. Breiman also addresses a common argument in favor of simpler parametric models, namely, that their interpretability justifies some loss in predictive accuracy. He challenges this position by arguing that the primary goal of statistical analysis should be accurate and reliable prediction, with interpretability considered as a secondary concern to be addressed after adequate predictive accuracy has been established. This argument matters because it directly affects how statistical analysis is conducted and taught. The implication is that an overemphasis on traditional data models may limit the effectiveness of statistical practice, and that broader acceptance of algorithmic and machine learning methods could lead to more reliable analyses when high prediction accuracy is ultimately the end goal. An important caveat here is that prediction accuracy is not always the primary goal. Especially in the field of actuarial science, methods determining rates, premiums, and related quantities often must be approved by multiple stakeholders. In this context, interpretability is a critical requirement. If a model cannot be adequately explained or justified, it will not be suitable for use, regardless of its predictive accuracy. This highlights a practical constraint that Breiman mentions, but seems to not fully resolve.
 
-- Reliability and relationship to the topic
+- Leo Breiman was a highly respected statistician and professor at UC Berkeley, making him well-qualified to write this article. He has no obvious reason for bias, as his primary motivation appears to be advancing the field of statistics. There is no direct personal or professional consequences if his findings were not widely accepted, other than potentially slower progress in statistics. This article also appears in *Statistical Science*, a peer-reviewed journal. *Statistical Science* is ranked 18th out of 123 journals in Statistics & Probability according to the Journal Citation Reports, indicating it is a highly reputable source.
+
+- This article is closely related to my Actuarial Science topic, as it provides a important background on the trade-offs between predictive accuracy and interpretability. This directly connects to the discussion of neural networks as a potential complement or alternative to GLMs in the field. Breiman's article helps readers consider for themselves whether the reduction in interpretability is justified by the gain in predictive accuracy.
 
 - Missing pieces
-    - thing 1
 
-    - thing 2
+    - I lack the understanding of what neural networks actually are, which I think would be an important piece of knowledge to better understanding what the trade-off actually is. I understand that the interpretability trade-off is present, but do not actually know where that trade-off lies, and how big of a gap it is.
+
+    - One of the problems that Breiman lays out with traditional models has to do with multiple models having similar RSS. I think I may have seen something like this before, but a deeper dive into understanding what this RSS actually says about the model, and why multiple models having a similar one, would be of great use to me.
+
+@lindholmDISCRIMINATIONFREEINSURANCEPRICING2022
+
+- The focus of this paper is to find a way to ensure that insurance prices do not discriminate based on protected characteristics. The paper looks at two main forms of discrimination, direct and indirect. Direct discrimination is quite easy to avoid, simply not using those characteristics directly in the model to determune pricing. Indirect discimination, however, is much more challenging. This paper is interesting because it brings to light this problem that on the surface does not seem to exist. At first glance, It seems quite simple that you could simply not use the specific protected characteristics in pricing models to ensure fairness. The authors demonstrate that this approach is inadequate, as indirect discrimination can still arise through corrrelations between protected and non-protected characteristics. The authors go through many complex models that aim to eliminate this indirect discrimination. It points out the problems with each model as it goes, and eventually they come to what they believe is the best model to not allow any indirect discrimination. The implication of this article is very large. If this model were adopted, it could ensure no indirect discrimination in the actuarial field.
+
+- This paper seems to be very reputable. It is published by the Cambridge University Press, which is a reputabke university and source. It has relationship to my Actuarial Science article through its talk on not using any form of discrimination in its models. This is very important to my article as my article directly discusses models and neural networks to be used in Actuarial Science. It will be imperative for these analysis methods to be free from discrimination.
+
+- Missing pieces
+    - The article uses very complex math and modeling. I understand how they are trying to improve their model everytime to ensure no discrimination, but I do not have a grasp on exactly what they are improving each time.
+
+    - Some of the notation as well I am entirely unfamiliar with, so I am unable to understand many of those parts.
+
+
