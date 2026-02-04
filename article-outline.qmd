@@ -1,0 +1,108 @@
+---
+format: html
+editor: visual
+---
+
+# INTRODUCTION
+
+- lays out basis of how actuarial science used to be too theoretical with little application to real world problems
+
+- shows who are to thank for the major theoretical foundation of actuarial science, talks about the typical "4 kinds of actuaries" and proposes the fifth actuary (more modern) that is data driven. Explains how important it is for actuaries to embrace statistics and data science
+
+- lays out the structure of the article, showing what each section will cover and how each of these sectors are quite different in the statistical modeling approach that is needed
+
+# NON-LIFE INSURANCE MODELING
+
+#### From Generalized Linear Models to Neural Networks
+
+- explains what non-life insurance is and what the goal is
+
+- explains that GLMs have been the main thing used by actuaries to discriminate policyholders for decades, and the potential issues that arise from using them. This leads to talking about using neural networks and their use in helping.
+
+#### The Balance Property
+
+- explains what the EDF is for GLMs and why it is so useful, particularly that the balance property holds meaning the total premium charged over the entire portfolio equals the claim amount observed in the last accounting year
+
+- explains the importance of MLE in the actuarial field
+
+- explains that outliers in insurance are usually different from outliers in the general data science sense if that they are usually not data errors, but rather large financial claims that are important components in the pricing
+
+#### Neural Networks and Representation Learning
+
+- explains the use of neural networks as an extension of GLMs
+
+- explains different processes for simplifying these networks
+
+- shows some critiques of neural networks, mainly on interpretability
+
+#### Discrimination and Telematics Car Driving Data
+
+- explains that there are protected characteristics under the law that are not allowed to be used for insurance pricing (e.g. ethnicity)
+
+- explains that avoiding indirect discrimination is also important on top of avoiding direct discrimination
+
+- explains that this problem could be circumvented with personal and behavior data, but that there are major privacy issues with this
+
+#### Claims Reserving in Non-Life Insurance
+
+- briefly explains what it defines as "the four stages of claim reserving"
+
+# LIFE INSURANCE MODELING
+
+#### Mortality Modeling
+
+- backgounds the history of mortality forcasting
+
+- describes the math behind mortality rate and a model for mortality forecasting
+
+#### Insurance Product Design and Valuation of Cash Flows
+
+- briefly discusses the importance of product design, and how the it is a growing field using stochastic modeling, optimal control, and machine learning methods
+
+- introduces and defines "tontines," that have becoe more popular as of late
+
+# RISK MANAGEMENT AND SELECTED TOPICS
+
+#### Reinsurance
+
+- explains the importance and popularity of reinsurance
+
+- explains the development of alternative risk transfer (ART) products and ILS markets
+
+- explains the serious challenges posed to the reinsurance industry as a result of climate change
+
+#### From Risk Management to Capital Adequacy
+
+- explains how capital adequacy regulation for banking and insurance have undergone major changes since the 1970s
+
+- explains the two major risk measures that came to the forefront: the quantile-type value-at-risk (VaR) and expected shortfall (ES)
+
+- explains that once the risk measure has been laid out, statistical estimation, goodness-of-fit, and practical implementation and communication
+
+#### From Operational Risk to Cyber Risk
+
+- talks about the top corporate perils of cyber incidents, business interruption, and changes in legislation and regulation
+
+- explains that in the statistical point of view, cyber risk data and operational risk data have many communalities
+
+#### A Comment on COVID-19
+
+- explains how supply chain and business interruption risk have been accentuated by the COVID-19 pandemic
+
+- explains that COVID-19 will have important consequences to life and health insurance, in terms of statistical modeling and insurance products
+
+# CONCLUSION
+
+- reinforces the point that statistics and data science are becoming very important to the life of the modern actuary
+
+
+## Major Gaps
+
+There don't appear to be any major gaps in the paper. Some of the sections start quite abruptly and sound weird at times, but it doesn't appear they missed anything that they said would be discussed, or should have been discussed.
+
+
+
+
+
+
+

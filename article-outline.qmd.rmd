@@ -1,0 +1,8 @@
+---
+title: "article-outline.qmd"
+author: "Tyler Brown"
+date: "2026-02-03"
+output: html_document
+---
+
+*Introduction*
