@@ -1,0 +1,18 @@
+---
+title: "Rhetorical Choices"
+author: "Tyler Brown"
+bibliography: references.bib
+---
+
+@embrechtsRecentChallengesActuarial2022
+
+The arguments presented by Embrechts and Wüthrich are often more explanatory than overtly argumentative. When they do advance claims, some are clearly and thoroughly developed, while some others rely too heavily on references to external sources, rather than direct justification in the article itself. This shows largely what they assume about the audience that their article is intended to reach.
+
+To start, some of the arguments made by [@embrechtsRecentChallengesActuarial2022] are clearly developed and explained. One such example is when they discuss the issue with telematics car driving data with privacy. They explain that the telematics car driving data would be a useful tool to measure second by second things like GPS, speed, acceleration, driving over speed limits, among other things. But they then also point out the privacy issue with something like this. They point out that "from telematics data, it is not too difficult to determine which family member is currently driving the car, whether the car driver is in good health, and so on. Not surprisingly, society is alarmed by such transparency" [@embrechtsRecentChallengesActuarial2022]. Here, they clearly layout their argument that telematics car driving data is useful, but raises privacy concerns. Then they back up their argument by explaining what the data shows about drivers, and how that would create major privacy concerns. Overall, this is one of the cases where the authors effectively make a claim, and back up the claim.
+
+On the other hand, some of the arguments made by [@embrechtsRecentChallengesActuarial2022] rely very heavily on references to external sources, rather than directly justifying their claim. One of these instances is when they are discussing real world application of the stochastic processes. Here they say "real data applications of these stochastic concepts have still been too rigid in practice (see Antonio & Plat 2014, Pigeon et al. 2013)" [@embrechtsRecentChallengesActuarial2022]. They make the claim that the stochastic concepts have been too rigid in practice, but do not back it up directly, but rather guide the reader to another source that discusses the issue. Although this choice is not inherently problematic, it shows the type of audience that the authors intend the article to reach. Clearly they want the article to reach those experts in the area, those that are willing to consult with the reference for the extra information.
+
+Overall, the article is a great deep dive into how the field of actuarial science has grown with data science. When the authors choose to be more argumentative, their reliance on citation rather than extended elaboration reflects their intended audience of specialists.
+
+
+
